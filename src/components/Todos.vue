@@ -5,9 +5,10 @@
     <form @submit="submitForm">  
 
     <input type="text" v-model="text">
-    <button class="add" type="button">ADD A TASK</button>
+    <button @click="submitForm" class="add" type="button">ADD A TASK</button>
 
     </form>
+            
             <ul>
                 <li v-for="(todo,index) in todos" :key="index">
                         <input class="toggle" type="checkbox" v-model="todo.completed">
