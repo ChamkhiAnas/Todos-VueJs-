@@ -5,7 +5,7 @@
     <form @submit="submitForm">  
 
     <input type="text" v-model="text">
-    <button class="add" type="button">Add</button>
+    <button class="add" type="button">ADD</button>
 
     </form>
             <ul>
@@ -30,15 +30,15 @@ export default {
           text:"",
           todos:[
               {
-                   text:'My todo one',
+                   text:'Reading Ideology and Ideological State Apparatuses ',
                    completed: false
               },
               {
-                   text:'My todo Two',
+                   text:'Watching Pierrot le Fou By Jean-Luc Godard',
                    completed: false
               },
               {
-                   text:'My todo Three',
+                   text:'Learning Vue Js Online ',
                    completed: false
               },
           ]
