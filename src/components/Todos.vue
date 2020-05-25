@@ -5,7 +5,7 @@
     <form @submit="submitForm">  
 
     <input type="text" v-model="text">
-    <button class="add" type="button">ADD</button>
+    <button class="add" type="button">ADD A TASK</button>
 
     </form>
             <ul>
